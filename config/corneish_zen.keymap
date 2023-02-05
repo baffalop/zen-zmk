@@ -11,9 +11,6 @@
 
 / {
         behaviors {
-                &lt {
-                        flavor = "balanced";
-                };
                 rm: row_mod {
                         compatible = "zmk,behavior-hold-tap";
                         label = "ROW_MOD";
