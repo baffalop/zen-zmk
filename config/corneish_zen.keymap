@@ -46,13 +46,14 @@
                 default_layer {
                         label = "COLEMAK";
                         bindings = <
-   &kp Q       &kp W       &kp C       &kp P       &kp B   &kp J    &kp L      &kp U       &kp Y      &kp MINUS
-   &rm LSHFT A &rm LALT R  &rm LCTRL S &rm LGUI T  &kp G   &kp M    &rm RGUI N &rm RCTRL E &rm RALT I &rm RSHFT O
-   &kp Z       &kp X       &kp F       &kp D       &kp V   &kp K    &kp H      &kp COMMA   &kp DOT    &kp APOS
-   &kp ESC    &key_repeat &ls 2 LSFT  &lt 1 SPACE &kp RET &kp BSPC
+   &kp Q       &kp W       &kp C       &kp P       &kp B     &kp J    &kp L      &kp U       &kp Y      &kp MINUS
+   &rm LSHFT A &rm LALT R  &rm LCTRL S &rm LGUI T  &kp G     &kp M    &rm RGUI N &rm RCTRL E &rm RALT I &rm RSHFT O
+   &kp Z       &kp X       &kp F       &kp D       &kp V     &kp K    &kp H      &kp COMMA   &kp DOT    &kp APOS
+   &kp ESC     &key_repeat &ls 2 LSFT  &lt 3 SPACE &lt 1 RET &kp BSPC
                         >;
                 };
-                lower_layer {
+
+                num_layer {
                         label = "NUMBER";
                         bindings = <
    &kp EXCL  &kp N6      &kp N3       &kp DLLR    &kp PRCNT &kp ASTRK  &kp N7      &kp N8       &kp N9      &kp FSLH
@@ -62,13 +63,23 @@
                         >;
                 };
 
-                raise_layer {
+                sym_layer {
                         label = "SYMBOL";
                         bindings = <
    &kp BSLH  &kp DQT &kp COLON &kp QMARK &kp BSLH  &kp CARET &kp LBRC &kp ASTRK &kp RBRC &kp FSLH
    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT &kp MINUS &kp LPAR &kp PLUS  &kp RPAR &kp EQUAL
    &kp TILDE &kp LT  &kp GRAVE &kp GT    &kp FSLH  &kp AMPS  &kp LBKT &kp UNDER &kp RBKT &kp PIPE
    &trans    &trans  &trans    &trans    &trans    &trans
+                        >;
+                };
+
+                nav_layer {
+                        label = "NAV";
+                        bindings = <
+   &trans &trans &trans &trans &trans &trans    &kp RS(TAB)   &kp TAB      &trans         &trans
+   &trans &trans &trans &trans &trans &kp LEFT  &rm RGUI DOWN &rm RCTRL UP &rm RALT RIGHT &trans
+   &trans &trans &trans &trans &trans &kp ENTER &kp BSPC      &kp DEL      &kp ESC        &trans
+   &trans &trans &trans &trans &trans &trans
                         >;
                 };
         };
