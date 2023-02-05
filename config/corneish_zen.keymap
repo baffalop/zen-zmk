@@ -66,9 +66,9 @@
                 sym_layer {
                         label = "SYMBOL";
                         bindings = <
-   &kp BSLH  &kp DQT &kp COLON &kp QMARK &kp BSLH  &kp CARET &kp LBRC &kp ASTRK &kp RBRC &kp FSLH
-   &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT &kp MINUS &kp LPAR &kp PLUS  &kp RPAR &kp EQUAL
-   &rm LSHFT TILDE &rm LALT LT  &rm LCTRL GRAVE &rm LGUI GT    &kp FSLH  &rm RGUI AMPS  &rm RCTRL LBKT &rm RALT UNDER &rm RSHFT RBKT &kp PIPE
+   &kp BSLH        &kp DQT        &kp COLON    &kp QMARK   &kp BSLH  &kp CARET     &kp LBRC       &kp ASTRK      &kp RBRC       &kp FSLH
+   &kp EXCL        &kp AT         &kp HASH     &kp DLLR    &kp PRCNT &kp MINUS     &kp LPAR       &kp PLUS       &kp RPAR       &kp EQUAL
+   &rm LSHFT TILDE &rm LALT GRAVE &rm LCTRL LT &rm LGUI GT &kp FSLH  &rm RGUI AMPS &rm RCTRL LBKT &rm RALT UNDER &rm RSHFT RBKT &kp PIPE
    &trans    &trans  &trans    &trans    &trans    &trans
                         >;
                 };
@@ -176,6 +176,10 @@
                 combo_dollar {
                         key-positions = <12 13>;
                         bindings = <&kp DOLLAR>;
+                };
+                combo_grave {
+                        key-positions = <21 22>;
+                        bindings = <&kp GRAVE>;
                 };
         };
 };
