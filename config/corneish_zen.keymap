@@ -179,7 +179,7 @@
                 };
                 combo_grave {
                         key-positions = <21 22>;
-                        bindings = <&kp GRAVE>;
+                        bindings = <&rm LC(LALT) GRAVE>;
                 };
                 combo_at {
                         key-positions = <16 17>;
