@@ -18,6 +18,7 @@
                         tapping-term-ms = <150>;
                         quick-tap-ms = <100>;
                         global-quick-tap;
+                        #binding-cells = <2>;
                         bindings = <&kp>, <&kp>;
                 };
                 ls: layer_sticky {
