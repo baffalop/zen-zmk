@@ -22,7 +22,7 @@
                         bindings = <&kp>, <&kp>;
                 };
                 ls: layer_sticky {
-                        compatible = "zmk,behavior-layer-tap";
+                        compatible = "zmk,behavior-hold-tap";
                         label = "LAYER_STICKY";
                         flavor = "balanced";
                         #binding-cells = <2>;
