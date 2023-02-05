@@ -83,4 +83,51 @@
                         >;
                 };
         };
+
+        combos {
+                compatible = "zmk,combos";
+                // right hand
+                combo_q {
+                        key-positions = <27 28>;
+                        bindings = <&kp QMARK>;
+                };
+                combo_underscore {
+                        key-positions = <26 27>;
+                        bindings = <&kp UNDERSCORE>;
+                };
+                combo_semicolon {
+                        key-positions = <26 27 28>;
+                        bindings = <&kp SEMICOLON>;
+                };
+                combo_colon {
+                        key-positions = <6 7 8>;
+                        bindings = <&kp COLON>;
+                };
+                combo_minus {
+                        key-positions = <16 17>;
+                        bindings = <&kp MINUS>;
+                };
+                combo_dquot {
+                        key-positions = <17 18>;
+                        bindings = <&kp DOUBLE_QUOTES>;
+                };
+                combo_fslash {
+                        key-positions = <16 7>;
+                        bindings = <&kp FSLH>;
+                };
+                combo_bslash {
+                        key-positions = <7 18>;
+                        bindings = <&kp BSLH>;
+                };
+                combo_capsword {
+                        key-positions = <16 17 18>;
+                        bindings = <&caps_word>;
+                };
+
+                // left hand
+                combo_dollar {
+                        key-positions = <12 13>;
+                        bindings = <&kp DOLLAR>;
+                };
+        };
 };
