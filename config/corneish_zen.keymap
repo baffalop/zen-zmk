@@ -44,7 +44,7 @@
                         flavor = "balanced";
                         tapping-term-ms = <150>;
                         quick-tap-ms = <100>;
-                        #binding-cells = <1>;
+                        #binding-cells = <2>;
                         bindings = <&mo>, <&key_repeat>;
                 };
         };
@@ -58,7 +58,7 @@
    &kp Q       &kp W      &kp C       &kp P      &kp B     &kp J    &kp L      &kp U           &kp Y        &kp MINUS
    &kp A       &kp R      &kp S       &kp T      &kp G     &kp M    &kp N      &kp E           &kp I        &kp O
    &rm LSHFT Z &rm LALT X &rm LCTRL F &rm LGUI D &kp V     &kp K    &rm RGUI H &rm RCTRL COMMA &rm RALT DOT &rm RSHFT APOS
-   &kp ESC     &lrpt 1    &ls 2 LSFT  &lt 3 SPACE &lt 1 RET &kp BSPC
+   &kp ESC     &lrpt 1 0  &ls 2 LSFT  &lt 3 SPACE &lt 1 RET &kp BSPC
                         >;
                 };
 
