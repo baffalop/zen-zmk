@@ -89,15 +89,15 @@
                 // right hand
                 combo_q {
                         key-positions = <27 28>;
-                        bindings = <&kp QMARK>;
+                        bindings = <&rm RC(RALT) QMARK>;
                 };
                 combo_underscore {
                         key-positions = <26 27>;
-                        bindings = <&kp UNDERSCORE>;
+                        bindings = <&rm RG(RCTRL) UNDERSCORE>;
                 };
                 combo_semicolon {
                         key-positions = <26 27 28>;
-                        bindings = <&kp SEMICOLON>;
+                        bindings = <&rm RG(RC(RALT)) SEMICOLON>;
                 };
                 combo_colon {
                         key-positions = <6 7 8>;
@@ -126,11 +126,11 @@
                 };
                 combo_lbkt {
                         key-positions = <26 28>;
-                        bindings = <&kp LBKT>;
+                        bindings = <&rm RG(RALT) LBKT>;
                 };
                 combo_rbkt {
                         key-positions = <27 29>;
-                        bindings = <&kp RBKT>;
+                        bindings = <&rm RC(RSHFT) RBKT>;
                 };
 
                 // left hand
