@@ -25,11 +25,9 @@
                         compatible = "zmk,behavior-layer-tap";
                         label = "LAYER_STICKY";
                         flavor = "balanced";
+                        #binding-cells = <2>;
+                        bindings = <&mo>, <&sk>;
                 };
-        };
-
-        &lt {
-                flavor = "balanced";
         };
 
         keymap {
@@ -41,7 +39,7 @@
    &kp Q      &kp W      &kp C      &kp P      &kp B &kp J &kp L      &kp U      &kp Y      &kp MINUS
    &rm LSFT A &rm LALT R &rm LCTL S &rm LGUI T &kp G &kp M &rm RGUI N &rm RCTL E &rm RALT I &rm RSFT O
    &kp Z      &kp X      &kp F      &kp D      &kp V &kp K &kp H      &kp COMMA  &kp DOT    &kp SEMI
-   &kp ESC   &key_repeat &lt 2 RET    &lt 1 SPACE  &kp RET &kp BSPC
+   &kp ESC   &key_repeat &ls 2 LSFT    &lt 1 SPACE  &kp RET &kp BSPC
                         >;
                 };
                 lower_layer {
