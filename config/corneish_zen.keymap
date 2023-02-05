@@ -86,7 +86,8 @@
 
         combos {
                 compatible = "zmk,combos";
-                // right hand
+                // RIGHT HAND
+                // symbols
                 combo_q {
                         key-positions = <27 28>;
                         bindings = <&rm RC(RALT) QMARK>;
@@ -124,6 +125,10 @@
                         key-positions = <16 17 18>;
                         bindings = <&caps_word>;
                 };
+                combo_eq {
+                        key-positions = <26 29>;
+                        bindings = <&rm RG(RSHFT) EQUAL>;
+                };
                 combo_lbkt {
                         key-positions = <26 28>;
                         bindings = <&rm RG(RALT) LBKT>;
@@ -132,8 +137,38 @@
                         key-positions = <27 29>;
                         bindings = <&rm RC(RSHFT) RBKT>;
                 };
+                combo_lparen {
+                        key-positions = <16 18>;
+                        bindings = <&kp LPAR>;
+                };
+                combo_rparen {
+                        key-positions = <17 19>;
+                        bindings = <&kp RPAR>;
+                };
+                combo_lbrace {
+                        key-positions = <6 8>;
+                        bindings = <&kp LBRC>;
+                };
+                combo_rbrace {
+                        key-positions = <7 9>;
+                        bindings = <&kp RBRC>;
+                };
 
-                // left hand
+                // numbers
+                combo_1 {
+                        key-positions = <6 7>;
+                        bindings = <&kp N1>;
+                };
+                combo_2 {
+                        key-positions = <6 8>;
+                        bindings = <&kp N2>;
+                };
+                combo_3 {
+                        key-positions = <6 7 8>;
+                        bindings = <&kp N3>;
+                };
+
+                // LEFT HAND
                 combo_dollar {
                         key-positions = <12 13>;
                         bindings = <&kp DOLLAR>;
