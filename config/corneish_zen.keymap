@@ -124,6 +124,14 @@
                         key-positions = <16 17 18>;
                         bindings = <&caps_word>;
                 };
+                combo_lbkt {
+                        key-positions = <26 28>;
+                        bindings = <&kp LBKT>;
+                };
+                combo_rbkt {
+                        key-positions = <27 29>;
+                        bindings = <&kp RBKT>;
+                };
 
                 // left hand
                 combo_dollar {
