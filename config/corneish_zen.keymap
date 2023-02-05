@@ -46,10 +46,10 @@
                 default_layer {
                         label = "COLEMAK";
                         bindings = <
-   &kp Q       &kp W       &kp C       &kp P       &kp B     &kp J    &kp L      &kp U       &kp Y      &kp MINUS
-   &rm LSHFT A &rm LALT R  &rm LCTRL S &rm LGUI T  &kp G     &kp M    &rm RGUI N &rm RCTRL E &rm RALT I &rm RSHFT O
-   &kp Z       &kp X       &kp F       &kp D       &kp V     &kp K    &kp H      &kp COMMA   &kp DOT    &kp APOS
-   &kp ESC     &key_repeat &ls 2 LSFT  &lt 3 SPACE &lt 1 RET &kp BSPC
+   &kp Q       &kp W      &kp C       &kp P       &kp B     &kp J    &kp L      &kp U       &kp Y      &kp MINUS
+   &rm LSHFT A &rm LALT R &rm LCTRL S &rm LGUI T  &kp G     &kp M    &rm RGUI N &rm RCTRL E &rm RALT I &rm RSHFT O
+   &kp Z       &kp X      &kp F       &kp D       &kp V     &kp K    &kp H      &kp COMMA   &kp DOT    &kp APOS
+   &kp ESC     &lt 1 ESC  &ls 2 LSFT  &lt 3 SPACE &lt 1 RET &kp BSPC
                         >;
                 };
 
