@@ -106,6 +106,7 @@
                 combo_minus {
                         key-positions = <16 17>;
                         bindings = <&kp MINUS>;
+                        timeout-ms = <30>;
                 };
                 combo_dquot {
                         key-positions = <17 18>;
