@@ -171,6 +171,10 @@
                         key-positions = <6 7 8>;
                         bindings = <&kp N3>;
                 };
+                combo_0 {
+                        key-positions = <7 8>;
+                        bindings = <&kp N0>;
+                };
 
                 // LEFT HAND
                 combo_dollar {
