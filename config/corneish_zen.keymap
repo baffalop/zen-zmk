@@ -13,6 +13,10 @@
         flavor = "balanced";
 };
 
+&sk {
+        quick-release;
+};
+
 / {
         behaviors {
                 rm: row_mod {
