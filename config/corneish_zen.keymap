@@ -9,6 +9,10 @@
   };
 };
 
+&lt {
+        flavor = "balanced";
+};
+
 / {
         behaviors {
                 rm: row_mod {
