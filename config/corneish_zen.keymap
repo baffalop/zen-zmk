@@ -181,5 +181,10 @@
                         key-positions = <21 22>;
                         bindings = <&kp GRAVE>;
                 };
+                combo_at {
+                        key-positions = <16 17>;
+                        bindings = <&kp AT>;
+                        timeout-ms = <30>;
+                };
         };
 };
