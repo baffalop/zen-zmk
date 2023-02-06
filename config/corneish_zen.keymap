@@ -89,7 +89,7 @@
                 sym_layer {
                         label = "SYMBOL";
                         bindings = <
-   &kp BSLH        &kp DQT        &kp COLON    &kp QMARK   &kp BSLH      &kp CARET &kp LBRC      &kp ASTRK       &kp RBRC      &kp SEMI
+   &kp BSLH        &kp DQT        &kp COLON    &kp QMARK   &kp FSLH      &kp CARET &kp LBRC      &kp ASTRK       &kp RBRC      &kp SEMI
    &kp EXCL        &kp AT         &kp HASH     &kp DLLR    &kp PRCNT     &kp MINUS &kp LPAR      &kp PLUS        &kp RPAR      &kp EQUAL
    &rm LSHFT TILDE &rm LALT GRAVE &rm LCTRL LT &rm LGUI GT &kp LG(GRAVE) &kp AMPS  &rm RGUI LBKT &rm RCTRL UNDER &rm RALT RBKT &rm RSHFT PIPE
    &trans    &trans  &trans    &trans    &trans    &trans
