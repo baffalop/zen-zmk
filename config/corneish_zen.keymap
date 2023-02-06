@@ -2,6 +2,12 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+#define DEFAULT 0
+#define NUM 1
+#define SYM 2
+#define NAV 3
+#define FUNC 4
+
 / {
   chosen {
     // zmk,matrix_transform = &default_transform;
@@ -57,10 +63,10 @@
                 default_layer {
                         label = "COLEMAK";
                         bindings = <
-   &kp Q       &kp W      &kp C       &kp P      &kp B     &kp J    &kp L      &kp U           &kp Y        &kp SEMI
-   &kp A       &kp R      &kp S       &kp T      &kp G     &kp M    &kp N      &kp E           &kp I        &kp O
-   &rm LSHFT Z &rm LALT X &rm LCTRL F &rm LGUI D &kp V     &kp K    &rm RGUI H &rm RCTRL COMMA &rm RALT DOT &rm RSHFT APOS
-   &kp ESC     &lrpt 1 0  &ls 2 LSFT  &lt 3 SPACE &lt 1 RET &kp BSPC
+   &kp Q       &kp W       &kp C        &kp P         &kp B     &kp J    &kp L      &kp U           &kp Y        &kp SEMI
+   &kp A       &kp R       &kp S        &kp T         &kp G     &kp M    &kp N      &kp E           &kp I        &kp O
+   &rm LSHFT Z &rm LALT X  &rm LCTRL F  &rm LGUI D    &kp V     &kp K    &rm RGUI H &rm RCTRL COMMA &rm RALT DOT &rm RSHFT APOS
+   &kp ESC     &lrpt NUM 0 &ls SYM LSFT &lt NAV SPACE &lt 1 RET &kp BSPC
                         >;
                 };
 
