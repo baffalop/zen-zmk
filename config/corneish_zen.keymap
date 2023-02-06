@@ -151,6 +151,10 @@
                         key-positions = <26 29>;
                         bindings = <&rm RG(RSHFT) EQUAL>;
                 };
+                combo_colon {
+                        key-positions = <16 17 18>;
+                        bindings = <&kp COLON>;
+                };
                 combo_lbkt {
                         key-positions = <26 28>;
                         bindings = <&rm RG(RALT) LBKT>;
@@ -160,14 +164,9 @@
                         bindings = <&rm RC(RSHFT) RBKT>;
                 };
 
-
                 // control
-                combo_enter {
-                        key-positions = <16 17 18>;
-                        bindings = <&kp ENTER>;
-                };
                 combo_capsword {
-                        key-positions = <26 27 28>;
+                        key-positions = <16 17 18>;
                         bindings = <&caps_word>;
                 };
 
