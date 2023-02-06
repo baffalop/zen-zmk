@@ -156,6 +156,10 @@
                         bindings = <&kp RBRC>;
                         timeout-ms = <30>;
                 };
+                combo_enter {
+                        key-positions = <16 17 18 19>;
+                        bindings = <&kp ENTER>;
+                };
 
                 // numbers
                 combo_1 {
