@@ -146,16 +146,6 @@
                         key-positions = <27 29>;
                         bindings = <&rm RC(RSHFT) RBKT>;
                 };
-                combo_lparen {
-                        key-positions = <16 18>;
-                        bindings = <&kp LPAR>;
-                        timeout-ms = <30>;
-                };
-                combo_rparen {
-                        key-positions = <17 19>;
-                        bindings = <&kp RPAR>;
-                        timeout-ms = <30>;
-                };
                 combo_lbrace {
                         key-positions = <6 8>;
                         bindings = <&kp LBRC>;
