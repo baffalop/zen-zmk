@@ -41,7 +41,7 @@
                         compatible = "zmk,behavior-hold-tap";
                         label = "LAYER_STICKY";
                         flavor = "balanced";
-                        tapping-term0ms = <100>;
+                        tapping-term-ms = <100>;
                         quick-tap-ms = <70>;
                         #binding-cells = <2>;
                         bindings = <&mo>, <&sk>;
