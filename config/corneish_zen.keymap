@@ -9,10 +9,18 @@
 #define FUNC 4
 
 / {
-  chosen {
-    // zmk,matrix_transform = &default_transform;
-    zmk,matrix_transform = &five_column_transform;
-  };
+        chosen {
+          // zmk,matrix_transform = &default_transform;
+          zmk,matrix_transform = &five_column_transform;
+        };
+
+        conditional_layers {
+                combatible = "zmk,conditional-layers";
+                tri_layer {
+                        if-layers = <SYM NAV>;
+                        then-layer = <FUNC>;
+                };
+        };
 };
 
 &lt {
@@ -52,14 +60,6 @@
                         quick-tap-ms = <100>;
                         #binding-cells = <2>;
                         bindings = <&mo>, <&key_repeat>;
-                };
-        };
-
-        conditional_layers {
-                combatible = "zmk,conditional-layers";
-                tri_layer {
-                        if-layers = <SYM NAV>;
-                        then-layer = <FUNC>;
                 };
         };
 
