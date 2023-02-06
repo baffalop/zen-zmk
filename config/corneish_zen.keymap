@@ -133,6 +133,7 @@
                 combo_fslash {
                         key-positions = <16 7>;
                         bindings = <&kp FSLH>;
+                        timeout-ms = <30>;
                 };
                 combo_bslash {
                         key-positions = <7 18>;
@@ -170,6 +171,7 @@
                 combo_2 {
                         key-positions = <6 8>;
                         bindings = <&kp N2>;
+                        timeout-ms = <30>;
                 };
                 combo_3 {
                         key-positions = <6 7 8>;
@@ -184,6 +186,7 @@
                 combo_dollar {
                         key-positions = <12 13>;
                         bindings = <&kp DOLLAR>;
+                        timeout-ms = <30>;
                 };
                 combo_grave {
                         key-positions = <21 22>;
