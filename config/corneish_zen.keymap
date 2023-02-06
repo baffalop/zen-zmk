@@ -55,6 +55,14 @@
                 };
         };
 
+        conditional_layers {
+                combatible = "zmk,conditional-layers";
+                tri_layer {
+                        if-layers = <SYM NAV>;
+                        then-layer = <FUNC>;
+                };
+        };
+
         keymap {
                 compatible = "zmk,keymap";
 
@@ -196,14 +204,6 @@
                         key-positions = <16 17>;
                         bindings = <&kp AT>;
                         timeout-ms = <30>;
-                };
-        };
-
-        conditional_layers {
-                combatible = "zmk,conditional-layers";
-                tri_layer {
-                        if-layers = <SYM NAV>;
-                        then-layer = <FUNC>;
                 };
         };
 };
