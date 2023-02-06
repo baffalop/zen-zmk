@@ -99,6 +99,16 @@
    &trans &trans &trans &trans &trans &trans
                         >;
                 };
+
+                func_layer {
+                        label = "FUNCTION";
+                        bindings = <
+   &trans &kp F7 &kp F8 &kp F9 &trans &trans &kp C_VOL_DN &kp C_VOL_UP &trans     &trans
+   &trans &kp F1 &kp F2 &kp F3 &trans &trans &kp C_PREV   &kp C_PP     &kp C_NEXT &trans
+   &trans &kp F4 &kp F5 &kp F6 &trans &trans &kp C_BRI_DN &kp C_BRI_UP &kp ESC    &trans
+   &trans &trans &trans &trans &trans &trans
+                        >;
+                };
         };
 
         combos {
@@ -185,6 +195,14 @@
                         key-positions = <16 17>;
                         bindings = <&kp AT>;
                         timeout-ms = <30>;
+                };
+        };
+
+        conditional_layers {
+                combatible = "zmk,conditional-layers";
+                tri_layer {
+                        if-layers = <SYM NAV>;
+                        then-layer = <FUNC>;
                 };
         };
 };
