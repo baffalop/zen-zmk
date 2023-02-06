@@ -55,7 +55,7 @@
                 default_layer {
                         label = "COLEMAK";
                         bindings = <
-   &kp Q       &kp W      &kp C       &kp P      &kp B     &kp J    &kp L      &kp U           &kp Y        &kp MINUS
+   &kp Q       &kp W      &kp C       &kp P      &kp B     &kp J    &kp L      &kp U           &kp Y        &kp SEMI
    &kp A       &kp R      &kp S       &kp T      &kp G     &kp M    &kp N      &kp E           &kp I        &kp O
    &rm LSHFT Z &rm LALT X &rm LCTRL F &rm LGUI D &kp V     &kp K    &rm RGUI H &rm RCTRL COMMA &rm RALT DOT &rm RSHFT APOS
    &kp ESC     &lrpt 1 0  &ls 2 LSFT  &lt 3 SPACE &lt 1 RET &kp BSPC
@@ -130,10 +130,6 @@
                         key-positions = <7 18>;
                         bindings = <&kp BSLH>;
                 };
-                combo_capsword {
-                        key-positions = <16 17 18>;
-                        bindings = <&caps_word>;
-                };
                 combo_eq {
                         key-positions = <26 29>;
                         bindings = <&rm RG(RSHFT) EQUAL>;
@@ -156,9 +152,15 @@
                         bindings = <&kp RBRC>;
                         timeout-ms = <30>;
                 };
+
+                // control
                 combo_enter {
-                        key-positions = <16 17 18 19>;
+                        key-positions = <16 17 18>;
                         bindings = <&kp ENTER>;
+                };
+                combo_capsword {
+                        key-positions = <26 27 28>;
+                        bindings = <&caps_word>;
                 };
 
                 // numbers
