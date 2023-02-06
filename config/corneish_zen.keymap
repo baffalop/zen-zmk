@@ -11,6 +11,8 @@
 
 &lt {
         flavor = "balanced";
+        tapping-term-ms = <100>;
+        quick-tap-ms = <70>;
 };
 
 &sk {
@@ -23,8 +25,8 @@
                         compatible = "zmk,behavior-hold-tap";
                         label = "ROW_MOD";
                         flavor = "balanced";
-                        tapping-term-ms = <150>;
-                        quick-tap-ms = <100>;
+                        tapping-term-ms = <100>;
+                        quick-tap-ms = <70>;
                         global-quick-tap;
                         #binding-cells = <2>;
                         bindings = <&kp>, <&kp>;
@@ -33,8 +35,8 @@
                         compatible = "zmk,behavior-hold-tap";
                         label = "LAYER_STICKY";
                         flavor = "balanced";
-                        tapping-term-ms = <150>;
-                        quick-tap-ms = <100>;
+                        tapping-term0ms = <100>;
+                        quick-tap-ms = <70>;
                         #binding-cells = <2>;
                         bindings = <&mo>, <&sk>;
                 };
@@ -42,8 +44,8 @@
                         compatible = "zmk,behavior-hold-tap";
                         label = "LAYER_REPEAT";
                         flavor = "balanced";
-                        tapping-term-ms = <150>;
-                        quick-tap-ms = <100>;
+                        tapping-term-ms = <100>;
+                        quick-tap-ms = <70>;
                         #binding-cells = <2>;
                         bindings = <&mo>, <&key_repeat>;
                 };
