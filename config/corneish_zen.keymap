@@ -105,13 +105,9 @@
                         key-positions = <26 27>;
                         bindings = <&rm RG(RCTRL) UNDERSCORE>;
                 };
-                combo_semicolon {
-                        key-positions = <26 27 28>;
-                        bindings = <&rm RG(RC(RALT)) SEMICOLON>;
-                };
                 combo_colon {
-                        key-positions = <6 7 8>;
-                        bindings = <&kp COLON>;
+                        key-positions = <26 27 28>;
+                        bindings = <&rm RG(RC(RALT)) COLON>;
                 };
                 combo_minus {
                         key-positions = <16 17>;
