@@ -56,7 +56,7 @@
         };
 
         conditional_layers {
-                combatible = "zmk,conditional-layers";
+                compatible = "zmk,conditional-layers";
                 tri_layer {
                         if-layers = <SYM NAV>;
                         then-layer = <FUNC>;
